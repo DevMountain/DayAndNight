@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		713E09DD1940461F006CA563 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713E09DC1940461F006CA563 /* Foundation.framework */; };
+		713E09DF1940461F006CA563 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713E09DE1940461F006CA563 /* CoreGraphics.framework */; };
+		713E09E11940461F006CA563 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713E09E01940461F006CA563 /* UIKit.framework */; };
+		713E09E71940461F006CA563 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 713E09E51940461F006CA563 /* InfoPlist.strings */; };
+		713E09E91940461F006CA563 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E09E81940461F006CA563 /* main.m */; };
+		713E09ED1940461F006CA563 /* DNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E09EC1940461F006CA563 /* DNAppDelegate.m */; };
+		713E09EF1940461F006CA563 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713E09EE1940461F006CA563 /* Images.xcassets */; };
+		713E09F61940461F006CA563 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713E09F51940461F006CA563 /* XCTest.framework */; };
+		713E09F71940461F006CA563 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713E09DC1940461F006CA563 /* Foundation.framework */; };
+		713E09F81940461F006CA563 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713E09E01940461F006CA563 /* UIKit.framework */; };
+		713E0A001940461F006CA563 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 713E09FE1940461F006CA563 /* InfoPlist.strings */; };
+		713E0A021940461F006CA563 /* DayAndNightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E0A011940461F006CA563 /* DayAndNightTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		713E09F91940461F006CA563 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 713E09D11940461F006CA563 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 713E09D81940461F006CA563;
+			remoteInfo = DayAndNight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		713E09D91940461F006CA563 /* DayAndNight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayAndNight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		713E09DC1940461F006CA563 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		713E09DE1940461F006CA563 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		713E09E01940461F006CA563 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		713E09E41940461F006CA563 /* DayAndNight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DayAndNight-Info.plist"; sourceTree = "<group>"; };
+		713E09E61940461F006CA563 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		713E09E81940461F006CA563 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		713E09EA1940461F006CA563 /* DayAndNight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DayAndNight-Prefix.pch"; sourceTree = "<group>"; };
+		713E09EB1940461F006CA563 /* DNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DNAppDelegate.h; sourceTree = "<group>"; };
+		713E09EC1940461F006CA563 /* DNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNAppDelegate.m; sourceTree = "<group>"; };
+		713E09EE1940461F006CA563 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		713E09F41940461F006CA563 /* DayAndNightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayAndNightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		713E09F51940461F006CA563 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		713E09FD1940461F006CA563 /* DayAndNightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DayAndNightTests-Info.plist"; sourceTree = "<group>"; };
+		713E09FF1940461F006CA563 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		713E0A011940461F006CA563 /* DayAndNightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayAndNightTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		713E09D61940461F006CA563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713E09DF1940461F006CA563 /* CoreGraphics.framework in Frameworks */,
+				713E09E11940461F006CA563 /* UIKit.framework in Frameworks */,
+				713E09DD1940461F006CA563 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713E09F11940461F006CA563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713E09F61940461F006CA563 /* XCTest.framework in Frameworks */,
+				713E09F81940461F006CA563 /* UIKit.framework in Frameworks */,
+				713E09F71940461F006CA563 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		713E09D01940461F006CA563 = {
+			isa = PBXGroup;
+			children = (
+				713E09E21940461F006CA563 /* DayAndNight */,
+				713E09FB1940461F006CA563 /* DayAndNightTests */,
+				713E09DB1940461F006CA563 /* Frameworks */,
+				713E09DA1940461F006CA563 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		713E09DA1940461F006CA563 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				713E09D91940461F006CA563 /* DayAndNight.app */,
+				713E09F41940461F006CA563 /* DayAndNightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		713E09DB1940461F006CA563 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				713E09DC1940461F006CA563 /* Foundation.framework */,
+				713E09DE1940461F006CA563 /* CoreGraphics.framework */,
+				713E09E01940461F006CA563 /* UIKit.framework */,
+				713E09F51940461F006CA563 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		713E09E21940461F006CA563 /* DayAndNight */ = {
+			isa = PBXGroup;
+			children = (
+				713E09EB1940461F006CA563 /* DNAppDelegate.h */,
+				713E09EC1940461F006CA563 /* DNAppDelegate.m */,
+				713E09EE1940461F006CA563 /* Images.xcassets */,
+				713E09E31940461F006CA563 /* Supporting Files */,
+			);
+			path = DayAndNight;
+			sourceTree = "<group>";
+		};
+		713E09E31940461F006CA563 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				713E09E41940461F006CA563 /* DayAndNight-Info.plist */,
+				713E09E51940461F006CA563 /* InfoPlist.strings */,
+				713E09E81940461F006CA563 /* main.m */,
+				713E09EA1940461F006CA563 /* DayAndNight-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		713E09FB1940461F006CA563 /* DayAndNightTests */ = {
+			isa = PBXGroup;
+			children = (
+				713E0A011940461F006CA563 /* DayAndNightTests.m */,
+				713E09FC1940461F006CA563 /* Supporting Files */,
+			);
+			path = DayAndNightTests;
+			sourceTree = "<group>";
+		};
+		713E09FC1940461F006CA563 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				713E09FD1940461F006CA563 /* DayAndNightTests-Info.plist */,
+				713E09FE1940461F006CA563 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		713E09D81940461F006CA563 /* DayAndNight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 713E0A0519404620006CA563 /* Build configuration list for PBXNativeTarget "DayAndNight" */;
+			buildPhases = (
+				713E09D51940461F006CA563 /* Sources */,
+				713E09D61940461F006CA563 /* Frameworks */,
+				713E09D71940461F006CA563 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayAndNight;
+			productName = DayAndNight;
+			productReference = 713E09D91940461F006CA563 /* DayAndNight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		713E09F31940461F006CA563 /* DayAndNightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 713E0A0819404620006CA563 /* Build configuration list for PBXNativeTarget "DayAndNightTests" */;
+			buildPhases = (
+				713E09F01940461F006CA563 /* Sources */,
+				713E09F11940461F006CA563 /* Frameworks */,
+				713E09F21940461F006CA563 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				713E09FA1940461F006CA563 /* PBXTargetDependency */,
+			);
+			name = DayAndNightTests;
+			productName = DayAndNightTests;
+			productReference = 713E09F41940461F006CA563 /* DayAndNightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		713E09D11940461F006CA563 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DevMountain;
+				TargetAttributes = {
+					713E09F31940461F006CA563 = {
+						TestTargetID = 713E09D81940461F006CA563;
+					};
+				};
+			};
+			buildConfigurationList = 713E09D41940461F006CA563 /* Build configuration list for PBXProject "DayAndNight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 713E09D01940461F006CA563;
+			productRefGroup = 713E09DA1940461F006CA563 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				713E09D81940461F006CA563 /* DayAndNight */,
+				713E09F31940461F006CA563 /* DayAndNightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		713E09D71940461F006CA563 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713E09E71940461F006CA563 /* InfoPlist.strings in Resources */,
+				713E09EF1940461F006CA563 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713E09F21940461F006CA563 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713E0A001940461F006CA563 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		713E09D51940461F006CA563 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713E09ED1940461F006CA563 /* DNAppDelegate.m in Sources */,
+				713E09E91940461F006CA563 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713E09F01940461F006CA563 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713E0A021940461F006CA563 /* DayAndNightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		713E09FA1940461F006CA563 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 713E09D81940461F006CA563 /* DayAndNight */;
+			targetProxy = 713E09F91940461F006CA563 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		713E09E51940461F006CA563 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				713E09E61940461F006CA563 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		713E09FE1940461F006CA563 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				713E09FF1940461F006CA563 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		713E0A0319404620006CA563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		713E0A0419404620006CA563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		713E0A0619404620006CA563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DayAndNight/DayAndNight-Prefix.pch";
+				INFOPLIST_FILE = "DayAndNight/DayAndNight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		713E0A0719404620006CA563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DayAndNight/DayAndNight-Prefix.pch";
+				INFOPLIST_FILE = "DayAndNight/DayAndNight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		713E0A0919404620006CA563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DayAndNight.app/DayAndNight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DayAndNight/DayAndNight-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DayAndNightTests/DayAndNightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		713E0A0A19404620006CA563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DayAndNight.app/DayAndNight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DayAndNight/DayAndNight-Prefix.pch";
+				INFOPLIST_FILE = "DayAndNightTests/DayAndNightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		713E09D41940461F006CA563 /* Build configuration list for PBXProject "DayAndNight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713E0A0319404620006CA563 /* Debug */,
+				713E0A0419404620006CA563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		713E0A0519404620006CA563 /* Build configuration list for PBXNativeTarget "DayAndNight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713E0A0619404620006CA563 /* Debug */,
+				713E0A0719404620006CA563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		713E0A0819404620006CA563 /* Build configuration list for PBXNativeTarget "DayAndNightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713E0A0919404620006CA563 /* Debug */,
+				713E0A0A19404620006CA563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 713E09D11940461F006CA563 /* Project object */;
+}
