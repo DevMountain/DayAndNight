@@ -18,6 +18,15 @@
     
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[DNModeViewController new]];
     
+    [[UISegmentedControl appearance] setBackgroundColor:[UIColor whiteColor]];
+    [[UISegmentedControl appearance] setTintColor:[UIColor blueColor]];
+    
+    [[UINavigationBar appearance] setBarTintColor:nil];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{
+                                                           NSForegroundColorAttributeName: [UIColor blueColor],
+                                                           NSFontAttributeName: [UIFont fontWithName:@"Avenir-Light" size:20]
+                                                           }];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
