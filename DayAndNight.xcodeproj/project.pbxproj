@@ -19,6 +19,8 @@
 		713E09F81940461F006CA563 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713E09E01940461F006CA563 /* UIKit.framework */; };
 		713E0A001940461F006CA563 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 713E09FE1940461F006CA563 /* InfoPlist.strings */; };
 		713E0A021940461F006CA563 /* DayAndNightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E0A011940461F006CA563 /* DayAndNightTests.m */; };
+		713E0A11194046A2006CA563 /* DNModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E0A0F194046A2006CA563 /* DNModeViewController.m */; };
+		713E0A12194046A2006CA563 /* DNModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 713E0A10194046A2006CA563 /* DNModeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		713E09FD1940461F006CA563 /* DayAndNightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DayAndNightTests-Info.plist"; sourceTree = "<group>"; };
 		713E09FF1940461F006CA563 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		713E0A011940461F006CA563 /* DayAndNightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayAndNightTests.m; sourceTree = "<group>"; };
+		713E0A0E194046A2006CA563 /* DNModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNModeViewController.h; sourceTree = "<group>"; };
+		713E0A0F194046A2006CA563 /* DNModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNModeViewController.m; sourceTree = "<group>"; };
+		713E0A10194046A2006CA563 /* DNModeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DNModeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				713E09EB1940461F006CA563 /* DNAppDelegate.h */,
 				713E09EC1940461F006CA563 /* DNAppDelegate.m */,
+				713E0A0E194046A2006CA563 /* DNModeViewController.h */,
+				713E0A0F194046A2006CA563 /* DNModeViewController.m */,
+				713E0A10194046A2006CA563 /* DNModeViewController.xib */,
 				713E09EE1940461F006CA563 /* Images.xcassets */,
 				713E09E31940461F006CA563 /* Supporting Files */,
 			);
@@ -222,6 +230,7 @@
 			files = (
 				713E09E71940461F006CA563 /* InfoPlist.strings in Resources */,
 				713E09EF1940461F006CA563 /* Images.xcassets in Resources */,
+				713E0A12194046A2006CA563 /* DNModeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				713E09ED1940461F006CA563 /* DNAppDelegate.m in Sources */,
+				713E0A11194046A2006CA563 /* DNModeViewController.m in Sources */,
 				713E09E91940461F006CA563 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

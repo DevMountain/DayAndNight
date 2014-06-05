@@ -7,6 +7,7 @@
 //
 
 #import "DNAppDelegate.h"
+#import "DNModeViewController.h"
 
 @implementation DNAppDelegate
 
@@ -14,6 +15,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[DNModeViewController new]];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
